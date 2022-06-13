@@ -7,7 +7,8 @@
   >
     <div class="g-gantt-row__label" :style="rowLabelStyle">
       <span :title="label">
-        <slot name="label">{{ label }}</slot>
+        <!--<slot name="label">{{ label }}</slot>-->
+        {{ label }}
       </span>
     </div>
     <div
